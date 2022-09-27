@@ -23,5 +23,10 @@ namespace LionDevAPI.Repositories
 
             return id;
         }
+
+        public List<Leave> GetAll()
+        {
+            return _context.Leaves.ToList();
+        }
     }
 }

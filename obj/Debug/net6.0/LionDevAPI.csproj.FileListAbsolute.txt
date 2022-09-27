@@ -1,3 +1,11 @@
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.csproj.AssemblyReference.cache
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.AssemblyInfoInputs.cache
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.AssemblyInfo.cs
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.csproj.CoreCompileInputs.cache
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Programs\LionDevAPI\bin\Debug\net6.0\apikey.json
 C:\Programs\LionDevAPI\bin\Debug\net6.0\appsettings.Development.json
 C:\Programs\LionDevAPI\bin\Debug\net6.0\appsettings.json
 C:\Programs\LionDevAPI\bin\Debug\net6.0\LionDevAPI.exe
@@ -5,6 +13,11 @@ C:\Programs\LionDevAPI\bin\Debug\net6.0\LionDevAPI.deps.json
 C:\Programs\LionDevAPI\bin\Debug\net6.0\LionDevAPI.runtimeconfig.json
 C:\Programs\LionDevAPI\bin\Debug\net6.0\LionDevAPI.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\LionDevAPI.pdb
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Google.Apis.dll
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Google.Apis.Calendar.v3.dll
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Google.Apis.Core.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Humanizer.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -21,6 +34,7 @@ C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenId
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Programs\LionDevAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -43,13 +57,6 @@ C:\Programs\LionDevAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Dr
 C:\Programs\LionDevAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Programs\LionDevAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.csproj.AssemblyReference.cache
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.AssemblyInfoInputs.cache
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.AssemblyInfo.cs
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.csproj.CoreCompileInputs.cache
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Programs\LionDevAPI\obj\Debug\net6.0\LionDevAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Programs\LionDevAPI\obj\Debug\net6.0\staticwebassets.build.json
 C:\Programs\LionDevAPI\obj\Debug\net6.0\staticwebassets.development.json
 C:\Programs\LionDevAPI\obj\Debug\net6.0\scopedcss\bundle\LionDevAPI.styles.css
