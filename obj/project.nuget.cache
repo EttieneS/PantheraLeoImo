@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEfsu201ecl19N4QCRFDc9msdmE7gp31+EowpZ76j9XMMoSDrpLLVUc1g2MjyXqx/9gPL3qI9mqTVYHc50RD6A==",
+  "success": true,
+  "projectFilePath": "C:\\Programs\\LionDevAPI\\LionDevAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smith\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\smith\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\smith\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\smith\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\smith\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\smith\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
