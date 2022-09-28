@@ -28,5 +28,11 @@ namespace LionDevAPI.Repositories
         {
             return _context.Leaves.ToList();
         }
+        
+        public List<LeaveType> GetTypes()
+        {
+            var types = _context.LeaveTypes.ToList();
+            return types;
+        }
     }
 }

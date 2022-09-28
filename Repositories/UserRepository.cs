@@ -15,7 +15,7 @@ namespace LionDevAPI.Repositories
         }
 
         public User GetByName(User model)
-        {            
+        {
             var user = _context.Users.First(u => u.Name == model.Name);
 
             if (user == null)
@@ -26,12 +26,28 @@ namespace LionDevAPI.Repositories
                 _context.SaveChanges();
 
                 return model;
-            } else
+            }
+            else
             {
                 model = user;
 
                 return model;
-            }            
+            }
+        }
+
+        public void LeaveTaken(Leave leave)
+        {
+            var days = (leave.EndDate - leave.StartDate).Days;
+
+            var user = _context.Users.First(u => u.Name == leave.Name);
+            var editUser = new User();
+
+            if (user == null)
+            {
+                editUser.LeaveTaken = user.LeaveTaken + days;
+                _context.Entry(user).CurrentValues.SetValues(editUser);
+                _context.SaveChanges();
+            }
         }
     }
 }

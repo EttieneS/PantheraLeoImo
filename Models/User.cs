@@ -7,15 +7,5 @@
         public string Surname { get; set; }
         public long Leave { get; set; }
         public long LeaveTaken { get; set; }
-
-        public User() { }
-
-        public User(User model)
-        {
-            this.Name = model.Name;
-            this.Leave = model.Leave;
-
-        }
-
     }    
 }

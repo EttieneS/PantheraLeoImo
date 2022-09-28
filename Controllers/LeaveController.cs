@@ -28,6 +28,9 @@ namespace LionDevAPI.Controllers
             LeaveRepository leaveRespository = new LeaveRepository(_context);
             long id  = leaveRespository.Create(model);
 
+            UserRepository userRepository = new UserRepository(_context);
+            userRepository.LeaveTaken(model);
+
             CalenderController calenderController = new CalenderController();
             calenderController.CreateEvent(model);
 
@@ -40,6 +43,14 @@ namespace LionDevAPI.Controllers
             List<Leave> leave = leaveRepository.GetAll();
 
             return leave;
-        }       
+        }
+
+        [Route("gettypes")]
+        public List<LeaveType> GetTypes()
+        {
+            var leaveRepository = new LeaveRepository(_context);
+            return leaveRepository.GetTypes();
+
+        }
     }
 }
