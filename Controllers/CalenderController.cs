@@ -14,6 +14,7 @@ using Google.Apis.Util.Store;
 using System.IO;
 using System.Threading;
 using Google.Apis.Calendar.v3.Data;
+using LionDevAPI.Models;
 
 namespace LionDevAPI.Controllers
 {
@@ -27,25 +28,25 @@ namespace LionDevAPI.Controllers
             return View();
         }
 
-        public void CreateEvent()
+        public void CreateEvent(Leave leave)
         {
             string clientSecretJson = "C:\\Programs\\LionDevAPI\\apikey.json"; //add your json path here
-            string userName = "vryheidgg@gmail.com";//"547548302236-b5h8qc1uu5526o9560uan2crfe1o8107.apps.googleusercontent.com"; // add your google account here
+             string userName = "vryheidgg@gmail.com";//"547548302236-b5h8qc1uu5526o9560uan2crfe1o8107.apps.googleusercontent.com"; // add your google account here
             string[] scopes = new string[1] { "https://www.googleapis.com/auth/calendar"}; // replace n with the number of scopes you need and write them one by one
             CalendarService service = GetCalendarService(clientSecretJson, userName, scopes);
 
             Event newEvent = new Event()
             {
-                Summary = "event title",
-                Description = "Test Event",
+                Summary = "Leave Application",
+                Description = leave.Reason,
                 Start = new EventDateTime()
                 {
-                    DateTime = DateTime.Parse("2022-02-28T09:00:00-07:00"),
+                    DateTime = leave.StartDate,//DateTime.Parse(leave.StartDate),
                     TimeZone = "Africa/Johannesburg",
                 },
                 End = new EventDateTime()
                 {
-                    DateTime = DateTime.Parse("2022-02-28T09:00:00-08:00"),
+                    DateTime = leave.EndDate,//DateTime.Parse(leave.EndDate),
                     TimeZone = "Africa/Johannesburg",
                 },
             }; //// more options here https://developers.google.com/calendar/api/v3/reference/events/insert#.net

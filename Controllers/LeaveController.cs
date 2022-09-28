@@ -29,7 +29,7 @@ namespace LionDevAPI.Controllers
             long id  = leaveRespository.Create(model);
 
             CalenderController calenderController = new CalenderController();
-            calenderController.CreateEvent();
+            calenderController.CreateEvent(model);
 
             return id;
         }
@@ -40,6 +40,6 @@ namespace LionDevAPI.Controllers
             List<Leave> leave = leaveRepository.GetAll();
 
             return leave;
-        }
+        }       
     }
 }

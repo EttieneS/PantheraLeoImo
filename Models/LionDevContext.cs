@@ -8,6 +8,9 @@ namespace LionDevAPI.Models
         public LionDevContext(DbContextOptions<LionDevContext> options)
             : base(options) { }
 
+
+        public DbSet<User> Users { get; set; }
         public DbSet<Leave> Leaves { get; set; }
+        public DbSet<LeaveType> LeaveTypes { get; set; }
     }
 }
